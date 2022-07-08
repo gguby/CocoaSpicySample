@@ -1,0 +1,14 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/lib
+incdir=${prefix}/include
+
+Name: librtmp
+Description: RTMP implementation
+Version: v2.4
+Requires: libssl,libcrypto
+URL: http://rtmpdump.mplayerhq.hu
+Libs: -L${libdir} -lrtmp -lz 
+Libs.private: 
+Cflags: -I${incdir}
+

@@ -1,0 +1,15 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/lib
+includedir=/Library/Frameworks/GStreamer.framework/Versions/1.0/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.70.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -framework CoreFoundation -framework CoreVideo -framework CoreMedia
+Cflags: -I${includedir}
+

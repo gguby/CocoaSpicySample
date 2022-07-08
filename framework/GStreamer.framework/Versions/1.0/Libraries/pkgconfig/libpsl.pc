@@ -1,0 +1,10 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpsl
+Description: Public Suffix List C library
+Version: 0.20.2
+Libs: -L${libdir} -lpsl
+Cflags: -I${includedir}
+

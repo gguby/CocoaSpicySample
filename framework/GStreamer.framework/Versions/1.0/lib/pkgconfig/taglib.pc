@@ -1,0 +1,12 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=/Library/Frameworks/GStreamer.framework/Versions/1.0
+libdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/lib
+includedir=/Library/Frameworks/GStreamer.framework/Versions/1.0/include
+
+Name: TagLib
+Description: Audio meta-data library
+Requires: 
+Version: 1.11.1
+Libs: -L${libdir} -ltag
+Cflags: -I${includedir}/taglib
+

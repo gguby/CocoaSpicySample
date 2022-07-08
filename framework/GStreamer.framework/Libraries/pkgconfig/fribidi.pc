@@ -1,0 +1,10 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: GNU FriBidi
+Description: Unicode Bidirectional Algorithm Library
+Version: 1.0.5
+Libs: -L${libdir} -lfribidi
+Cflags: -I${includedir}/fribidi
+

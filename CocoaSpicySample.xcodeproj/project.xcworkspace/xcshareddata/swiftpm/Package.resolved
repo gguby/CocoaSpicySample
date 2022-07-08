@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "cocoaspice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/utmapp/CocoaSpice.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5070355c1ca5706c50bd74e8d65f89debd7bf8a0"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,12 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: SoundTouch
+Description: SoundTouch is an open-source audio processing library for changing the Tempo, Pitch and Playback Rates of audio streams or files
+URL: https://www.surina.net/soundtouch/
+Version: 2.0.0
+Libs: -L${libdir} -lSoundTouch
+Libs.private: -lm
+Cflags: -I${includedir}/soundtouch
+

@@ -1,0 +1,15 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=/Library/Frameworks/GStreamer.framework/Versions/1.0
+libdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/lib
+includedir=/Library/Frameworks/GStreamer.framework/Versions/1.0/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: zlib, bzip2, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
+

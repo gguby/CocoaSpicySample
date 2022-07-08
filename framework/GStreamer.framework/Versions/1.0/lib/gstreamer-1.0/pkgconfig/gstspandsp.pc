@@ -1,0 +1,11 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstspandsp
+Description: gst-plugins-bad: gstspandsp
+Version: 1.20.3
+Requires.private: gstreamer-video-1.0 >=  1.20.0, spandsp >=  0.0.6
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstspandsp
+Cflags: -I${includedir}
+

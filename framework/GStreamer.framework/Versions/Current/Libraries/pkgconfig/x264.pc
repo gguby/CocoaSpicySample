@@ -1,0 +1,12 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Users/matt/Projects/cerbero-1.20/build/dist/darwin_universal/lib
+includedir=${prefix}/include
+
+Name: x264
+Description: H.264 (MPEG4 AVC) encoder library
+Version: 0.157.2M ee909b8
+Libs: -L/Users/matt/Projects/cerbero-1.20/build/dist/darwin_universal/lib -lx264 
+Libs.private: -lpthread -lm -ldl
+Cflags: -I${prefix}/include
+

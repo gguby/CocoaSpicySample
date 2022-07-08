@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A63B31502877F90C00EF3407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63B314F2877F90C00EF3407 /* AppDelegate.swift */; };
+		A63B31522877F90C00EF3407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63B31512877F90C00EF3407 /* ViewController.swift */; };
+		A63B31542877F91000EF3407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63B31532877F91000EF3407 /* Assets.xcassets */; };
+		A63B31572877F91000EF3407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63B31552877F91000EF3407 /* Main.storyboard */; };
+		A63B31602877F92C00EF3407 /* CocoaSpice in Frameworks */ = {isa = PBXBuildFile; productRef = A63B315F2877F92C00EF3407 /* CocoaSpice */; };
+		A63B31E52877FB9000EF3407 /* pixman-1.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B02877FB8D00EF3407 /* pixman-1.0.framework */; };
+		A63B31E62877FB9000EF3407 /* virglrenderer.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B12877FB8D00EF3407 /* virglrenderer.1.framework */; };
+		A63B31E72877FB9000EF3407 /* gstrtsp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B22877FB8D00EF3407 /* gstrtsp-1.0.0.framework */; };
+		A63B31E82877FB9000EF3407 /* ffi.7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B32877FB8D00EF3407 /* ffi.7.framework */; };
+		A63B31E92877FB9000EF3407 /* gstcheck-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B42877FB8D00EF3407 /* gstcheck-1.0.0.framework */; };
+		A63B31EA2877FB9000EF3407 /* intl.8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B52877FB8D00EF3407 /* intl.8.framework */; };
+		A63B31EB2877FB9000EF3407 /* iconv.2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B62877FB8D00EF3407 /* iconv.2.framework */; };
+		A63B31EC2877FB9000EF3407 /* gthread-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B72877FB8D00EF3407 /* gthread-2.0.0.framework */; };
+		A63B31ED2877FB9000EF3407 /* graphene-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B82877FB8D00EF3407 /* graphene-1.0.0.framework */; };
+		A63B31EE2877FB9000EF3407 /* gstpbutils-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31B92877FB8D00EF3407 /* gstpbutils-1.0.0.framework */; };
+		A63B31EF2877FB9000EF3407 /* gpg-error.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31BA2877FB8D00EF3407 /* gpg-error.0.framework */; };
+		A63B31F02877FB9000EF3407 /* epoxy.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31BB2877FB8D00EF3407 /* epoxy.0.framework */; };
+		A63B31F12877FB9000EF3407 /* phodav-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31BC2877FB8D00EF3407 /* phodav-2.0.0.framework */; };
+		A63B31F22877FB9000EF3407 /* gstaudio-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31BD2877FB8D00EF3407 /* gstaudio-1.0.0.framework */; };
+		A63B31F32877FB9000EF3407 /* jpeg.62.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31BE2877FB8D00EF3407 /* jpeg.62.framework */; };
+		A63B31F42877FB9000EF3407 /* gstnet-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31BF2877FB8D00EF3407 /* gstnet-1.0.0.framework */; };
+		A63B31F52877FB9000EF3407 /* gettextsrc-0.21.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C02877FB8D00EF3407 /* gettextsrc-0.21.framework */; };
+		A63B31F62877FB9000EF3407 /* textstyle.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C12877FB8D00EF3407 /* textstyle.0.framework */; };
+		A63B31F72877FB9000EF3407 /* gstreamer-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C22877FB8E00EF3407 /* gstreamer-1.0.0.framework */; };
+		A63B31F82877FB9000EF3407 /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C32877FB8E00EF3407 /* GStreamer.framework */; };
+		A63B31F92877FB9000EF3407 /* gstsdp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C42877FB8E00EF3407 /* gstsdp-1.0.0.framework */; };
+		A63B31FA2877FB9000EF3407 /* ssl.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C52877FB8E00EF3407 /* ssl.1.1.framework */; };
+		A63B31FB2877FB9000EF3407 /* usb-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C62877FB8E00EF3407 /* usb-1.0.0.framework */; };
+		A63B31FC2877FB9000EF3407 /* crypto.1.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C72877FB8E00EF3407 /* crypto.1.1.framework */; };
+		A63B31FD2877FB9000EF3407 /* opus.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C82877FB8E00EF3407 /* opus.0.framework */; };
+		A63B31FE2877FB9000EF3407 /* gsttag-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31C92877FB8E00EF3407 /* gsttag-1.0.0.framework */; };
+		A63B31FF2877FB9000EF3407 /* turbojpeg.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31CA2877FB8E00EF3407 /* turbojpeg.0.framework */; };
+		A63B32002877FB9000EF3407 /* gstgl-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31CB2877FB8E00EF3407 /* gstgl-1.0.0.framework */; };
+		A63B32012877FB9000EF3407 /* gstfft-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31CC2877FB8E00EF3407 /* gstfft-1.0.0.framework */; };
+		A63B32022877FB9000EF3407 /* gettextpo.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31CD2877FB8F00EF3407 /* gettextpo.0.framework */; };
+		A63B32032877FB9000EF3407 /* gio-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31CE2877FB8F00EF3407 /* gio-2.0.0.framework */; };
+		A63B32042877FB9000EF3407 /* gstrtp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31CF2877FB8F00EF3407 /* gstrtp-1.0.0.framework */; };
+		A63B32052877FB9000EF3407 /* EGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D02877FB8F00EF3407 /* EGL.framework */; };
+		A63B32062877FB9000EF3407 /* gstapp-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D12877FB8F00EF3407 /* gstapp-1.0.0.framework */; };
+		A63B32072877FB9000EF3407 /* spice-client-glib-2.0.8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D22877FB8F00EF3407 /* spice-client-glib-2.0.8.framework */; };
+		A63B32082877FB9000EF3407 /* gstbase-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D32877FB8F00EF3407 /* gstbase-1.0.0.framework */; };
+		A63B32092877FB9000EF3407 /* usbredirparser.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D42877FB8F00EF3407 /* usbredirparser.1.framework */; };
+		A63B320A2877FB9000EF3407 /* usbredirhost.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D52877FB8F00EF3407 /* usbredirhost.1.framework */; };
+		A63B320B2877FB9000EF3407 /* gcrypt.20.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D62877FB8F00EF3407 /* gcrypt.20.framework */; };
+		A63B320C2877FB9000EF3407 /* gstvideo-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D72877FB8F00EF3407 /* gstvideo-1.0.0.framework */; };
+		A63B320D2877FB9000EF3407 /* json-glib-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D82877FB8F00EF3407 /* json-glib-1.0.0.framework */; };
+		A63B320E2877FB9000EF3407 /* gobject-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31D92877FB8F00EF3407 /* gobject-2.0.0.framework */; };
+		A63B320F2877FB9000EF3407 /* gstcontroller-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31DA2877FB8F00EF3407 /* gstcontroller-1.0.0.framework */; };
+		A63B32102877FB9000EF3407 /* gettextlib-0.21.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31DB2877FB8F00EF3407 /* gettextlib-0.21.framework */; };
+		A63B32112877FB9000EF3407 /* charset.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31DC2877FB8F00EF3407 /* charset.1.framework */; };
+		A63B32122877FB9000EF3407 /* gmodule-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31DD2877FB8F00EF3407 /* gmodule-2.0.0.framework */; };
+		A63B32132877FB9000EF3407 /* gstallocators-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31DE2877FB9000EF3407 /* gstallocators-1.0.0.framework */; };
+		A63B32142877FB9000EF3407 /* png16.16.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31DF2877FB9000EF3407 /* png16.16.framework */; };
+		A63B32152877FB9000EF3407 /* gstriff-1.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31E02877FB9000EF3407 /* gstriff-1.0.0.framework */; };
+		A63B32162877FB9000EF3407 /* spice-server.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31E12877FB9000EF3407 /* spice-server.1.framework */; };
+		A63B32172877FB9000EF3407 /* glib-2.0.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31E22877FB9000EF3407 /* glib-2.0.0.framework */; };
+		A63B32182877FB9000EF3407 /* GLESv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31E32877FB9000EF3407 /* GLESv2.framework */; };
+		A63B32192877FB9000EF3407 /* asprintf.0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B31E42877FB9000EF3407 /* asprintf.0.framework */; };
+		A63B32402877FEC500EF3407 /* libgstaudiomixer.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B321A2877FEC200EF3407 /* libgstaudiomixer.dylib */; };
+		A63B32412877FEC500EF3407 /* libgstadder.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B321B2877FEC200EF3407 /* libgstadder.dylib */; };
+		A63B32422877FEC500EF3407 /* libgstcompositor.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B321C2877FEC200EF3407 /* libgstcompositor.dylib */; };
+		A63B32432877FEC500EF3407 /* libgstplayback.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B321D2877FEC200EF3407 /* libgstplayback.dylib */; };
+		A63B32442877FEC500EF3407 /* libgstjpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B321E2877FEC300EF3407 /* libgstjpeg.dylib */; };
+		A63B32452877FEC500EF3407 /* libgstvideotestsrc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B321F2877FEC300EF3407 /* libgstvideotestsrc.dylib */; };
+		A63B32462877FEC500EF3407 /* libgstsubparse.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32202877FEC300EF3407 /* libgstsubparse.dylib */; };
+		A63B32472877FEC500EF3407 /* libgstopengl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32212877FEC300EF3407 /* libgstopengl.dylib */; };
+		A63B32482877FEC500EF3407 /* libgstgio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32222877FEC300EF3407 /* libgstgio.dylib */; };
+		A63B32492877FEC500EF3407 /* libgsttheora.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32232877FEC300EF3407 /* libgsttheora.dylib */; };
+		A63B324A2877FEC500EF3407 /* libgstreamer-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32242877FEC300EF3407 /* libgstreamer-1.0.0.dylib */; };
+		A63B324B2877FEC500EF3407 /* libgstaudiotestsrc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32252877FEC300EF3407 /* libgstaudiotestsrc.dylib */; };
+		A63B324C2877FEC500EF3407 /* libgstvolume.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32262877FEC300EF3407 /* libgstvolume.dylib */; };
+		A63B324D2877FEC500EF3407 /* libspice-client-gtk-3.0.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32272877FEC300EF3407 /* libspice-client-gtk-3.0.5.dylib */; };
+		A63B324E2877FEC500EF3407 /* libgstosxaudio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32282877FEC300EF3407 /* libgstosxaudio.dylib */; };
+		A63B324F2877FEC500EF3407 /* libgstoverlaycomposition.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32292877FEC300EF3407 /* libgstoverlaycomposition.dylib */; };
+		A63B32502877FEC500EF3407 /* libgstpango.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B322A2877FEC400EF3407 /* libgstpango.dylib */; };
+		A63B32512877FEC500EF3407 /* libgstvideorate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B322B2877FEC400EF3407 /* libgstvideorate.dylib */; };
+		A63B32522877FEC500EF3407 /* libgstogg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B322C2877FEC400EF3407 /* libgstogg.dylib */; };
+		A63B32532877FEC500EF3407 /* libgstcoreelements.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B322D2877FEC400EF3407 /* libgstcoreelements.dylib */; };
+		A63B32542877FEC500EF3407 /* libgstapp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B322E2877FEC400EF3407 /* libgstapp.dylib */; };
+		A63B32552877FEC500EF3407 /* libgstopus.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B322F2877FEC400EF3407 /* libgstopus.dylib */; };
+		A63B32562877FEC500EF3407 /* libgstaudiorate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32302877FEC400EF3407 /* libgstaudiorate.dylib */; };
+		A63B32572877FEC500EF3407 /* libgstrawparse.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32312877FEC400EF3407 /* libgstrawparse.dylib */; };
+		A63B32582877FEC500EF3407 /* libgstaudioresample.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32322877FEC400EF3407 /* libgstaudioresample.dylib */; };
+		A63B32592877FEC500EF3407 /* libgsttypefindfunctions.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32332877FEC400EF3407 /* libgsttypefindfunctions.dylib */; };
+		A63B325A2877FEC500EF3407 /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32342877FEC400EF3407 /* libglib-2.0.0.dylib */; };
+		A63B325B2877FEC500EF3407 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32352877FEC400EF3407 /* libusb-1.0.0.dylib */; };
+		A63B325C2877FEC500EF3407 /* libgstvorbis.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32362877FEC400EF3407 /* libgstvorbis.dylib */; };
+		A63B325D2877FEC500EF3407 /* libgstencoding.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32372877FEC500EF3407 /* libgstencoding.dylib */; };
+		A63B325E2877FEC500EF3407 /* libgstvideoconvert.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32382877FEC500EF3407 /* libgstvideoconvert.dylib */; };
+		A63B325F2877FEC500EF3407 /* libgstpbtypes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B32392877FEC500EF3407 /* libgstpbtypes.dylib */; };
+		A63B32602877FEC500EF3407 /* libgstautodetect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B323A2877FEC500EF3407 /* libgstautodetect.dylib */; };
+		A63B32612877FEC500EF3407 /* libgstaudioconvert.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B323B2877FEC500EF3407 /* libgstaudioconvert.dylib */; };
+		A63B32622877FEC500EF3407 /* libgstvideofilter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B323C2877FEC500EF3407 /* libgstvideofilter.dylib */; };
+		A63B32632877FEC500EF3407 /* libgsttcp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B323D2877FEC500EF3407 /* libgsttcp.dylib */; };
+		A63B32642877FEC500EF3407 /* libspice-client-glib-2.0.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B323E2877FEC500EF3407 /* libspice-client-glib-2.0.8.dylib */; };
+		A63B32652877FEC500EF3407 /* libgstvideoscale.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A63B323F2877FEC500EF3407 /* libgstvideoscale.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A63B314C2877F90C00EF3407 /* CocoaSpicySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaSpicySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63B314F2877F90C00EF3407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A63B31512877F90C00EF3407 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A63B31532877F91000EF3407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A63B31562877F91000EF3407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A63B31582877F91000EF3407 /* CocoaSpicySample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CocoaSpicySample.entitlements; sourceTree = "<group>"; };
+		A63B31622877F98500EF3407 /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GStreamer.framework; sourceTree = "<group>"; };
+		A63B31B02877FB8D00EF3407 /* pixman-1.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "pixman-1.0.framework"; path = "framework/pixman-1.0.framework"; sourceTree = "<group>"; };
+		A63B31B12877FB8D00EF3407 /* virglrenderer.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = virglrenderer.1.framework; path = framework/virglrenderer.1.framework; sourceTree = "<group>"; };
+		A63B31B22877FB8D00EF3407 /* gstrtsp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtsp-1.0.0.framework"; path = "framework/gstrtsp-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31B32877FB8D00EF3407 /* ffi.7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ffi.7.framework; path = framework/ffi.7.framework; sourceTree = "<group>"; };
+		A63B31B42877FB8D00EF3407 /* gstcheck-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcheck-1.0.0.framework"; path = "framework/gstcheck-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31B52877FB8D00EF3407 /* intl.8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = intl.8.framework; path = framework/intl.8.framework; sourceTree = "<group>"; };
+		A63B31B62877FB8D00EF3407 /* iconv.2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iconv.2.framework; path = framework/iconv.2.framework; sourceTree = "<group>"; };
+		A63B31B72877FB8D00EF3407 /* gthread-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gthread-2.0.0.framework"; path = "framework/gthread-2.0.0.framework"; sourceTree = "<group>"; };
+		A63B31B82877FB8D00EF3407 /* graphene-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "graphene-1.0.0.framework"; path = "framework/graphene-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31B92877FB8D00EF3407 /* gstpbutils-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstpbutils-1.0.0.framework"; path = "framework/gstpbutils-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31BA2877FB8D00EF3407 /* gpg-error.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gpg-error.0.framework"; path = "framework/gpg-error.0.framework"; sourceTree = "<group>"; };
+		A63B31BB2877FB8D00EF3407 /* epoxy.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = epoxy.0.framework; path = framework/epoxy.0.framework; sourceTree = "<group>"; };
+		A63B31BC2877FB8D00EF3407 /* phodav-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "phodav-2.0.0.framework"; path = "framework/phodav-2.0.0.framework"; sourceTree = "<group>"; };
+		A63B31BD2877FB8D00EF3407 /* gstaudio-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstaudio-1.0.0.framework"; path = "framework/gstaudio-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31BE2877FB8D00EF3407 /* jpeg.62.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = jpeg.62.framework; path = framework/jpeg.62.framework; sourceTree = "<group>"; };
+		A63B31BF2877FB8D00EF3407 /* gstnet-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstnet-1.0.0.framework"; path = "framework/gstnet-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31C02877FB8D00EF3407 /* gettextsrc-0.21.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextsrc-0.21.framework"; path = "framework/gettextsrc-0.21.framework"; sourceTree = "<group>"; };
+		A63B31C12877FB8D00EF3407 /* textstyle.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = textstyle.0.framework; path = framework/textstyle.0.framework; sourceTree = "<group>"; };
+		A63B31C22877FB8E00EF3407 /* gstreamer-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstreamer-1.0.0.framework"; path = "framework/gstreamer-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31C32877FB8E00EF3407 /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = framework/GStreamer.framework; sourceTree = "<group>"; };
+		A63B31C42877FB8E00EF3407 /* gstsdp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstsdp-1.0.0.framework"; path = "framework/gstsdp-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31C52877FB8E00EF3407 /* ssl.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ssl.1.1.framework; path = framework/ssl.1.1.framework; sourceTree = "<group>"; };
+		A63B31C62877FB8E00EF3407 /* usb-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "usb-1.0.0.framework"; path = "framework/usb-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31C72877FB8E00EF3407 /* crypto.1.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = crypto.1.1.framework; path = framework/crypto.1.1.framework; sourceTree = "<group>"; };
+		A63B31C82877FB8E00EF3407 /* opus.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opus.0.framework; path = framework/opus.0.framework; sourceTree = "<group>"; };
+		A63B31C92877FB8E00EF3407 /* gsttag-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gsttag-1.0.0.framework"; path = "framework/gsttag-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31CA2877FB8E00EF3407 /* turbojpeg.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = turbojpeg.0.framework; path = framework/turbojpeg.0.framework; sourceTree = "<group>"; };
+		A63B31CB2877FB8E00EF3407 /* gstgl-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstgl-1.0.0.framework"; path = "framework/gstgl-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31CC2877FB8E00EF3407 /* gstfft-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstfft-1.0.0.framework"; path = "framework/gstfft-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31CD2877FB8F00EF3407 /* gettextpo.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gettextpo.0.framework; path = framework/gettextpo.0.framework; sourceTree = "<group>"; };
+		A63B31CE2877FB8F00EF3407 /* gio-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gio-2.0.0.framework"; path = "framework/gio-2.0.0.framework"; sourceTree = "<group>"; };
+		A63B31CF2877FB8F00EF3407 /* gstrtp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstrtp-1.0.0.framework"; path = "framework/gstrtp-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31D02877FB8F00EF3407 /* EGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EGL.framework; path = framework/EGL.framework; sourceTree = "<group>"; };
+		A63B31D12877FB8F00EF3407 /* gstapp-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstapp-1.0.0.framework"; path = "framework/gstapp-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31D22877FB8F00EF3407 /* spice-client-glib-2.0.8.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "spice-client-glib-2.0.8.framework"; path = "framework/spice-client-glib-2.0.8.framework"; sourceTree = "<group>"; };
+		A63B31D32877FB8F00EF3407 /* gstbase-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstbase-1.0.0.framework"; path = "framework/gstbase-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31D42877FB8F00EF3407 /* usbredirparser.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = usbredirparser.1.framework; path = framework/usbredirparser.1.framework; sourceTree = "<group>"; };
+		A63B31D52877FB8F00EF3407 /* usbredirhost.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = usbredirhost.1.framework; path = framework/usbredirhost.1.framework; sourceTree = "<group>"; };
+		A63B31D62877FB8F00EF3407 /* gcrypt.20.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gcrypt.20.framework; path = framework/gcrypt.20.framework; sourceTree = "<group>"; };
+		A63B31D72877FB8F00EF3407 /* gstvideo-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstvideo-1.0.0.framework"; path = "framework/gstvideo-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31D82877FB8F00EF3407 /* json-glib-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "json-glib-1.0.0.framework"; path = "framework/json-glib-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31D92877FB8F00EF3407 /* gobject-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gobject-2.0.0.framework"; path = "framework/gobject-2.0.0.framework"; sourceTree = "<group>"; };
+		A63B31DA2877FB8F00EF3407 /* gstcontroller-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstcontroller-1.0.0.framework"; path = "framework/gstcontroller-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31DB2877FB8F00EF3407 /* gettextlib-0.21.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gettextlib-0.21.framework"; path = "framework/gettextlib-0.21.framework"; sourceTree = "<group>"; };
+		A63B31DC2877FB8F00EF3407 /* charset.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = charset.1.framework; path = framework/charset.1.framework; sourceTree = "<group>"; };
+		A63B31DD2877FB8F00EF3407 /* gmodule-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gmodule-2.0.0.framework"; path = "framework/gmodule-2.0.0.framework"; sourceTree = "<group>"; };
+		A63B31DE2877FB9000EF3407 /* gstallocators-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstallocators-1.0.0.framework"; path = "framework/gstallocators-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31DF2877FB9000EF3407 /* png16.16.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = png16.16.framework; path = framework/png16.16.framework; sourceTree = "<group>"; };
+		A63B31E02877FB9000EF3407 /* gstriff-1.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "gstriff-1.0.0.framework"; path = "framework/gstriff-1.0.0.framework"; sourceTree = "<group>"; };
+		A63B31E12877FB9000EF3407 /* spice-server.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "spice-server.1.framework"; path = "framework/spice-server.1.framework"; sourceTree = "<group>"; };
+		A63B31E22877FB9000EF3407 /* glib-2.0.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "glib-2.0.0.framework"; path = "framework/glib-2.0.0.framework"; sourceTree = "<group>"; };
+		A63B31E32877FB9000EF3407 /* GLESv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLESv2.framework; path = framework/GLESv2.framework; sourceTree = "<group>"; };
+		A63B31E42877FB9000EF3407 /* asprintf.0.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = asprintf.0.framework; path = framework/asprintf.0.framework; sourceTree = "<group>"; };
+		A63B321A2877FEC200EF3407 /* libgstaudiomixer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstaudiomixer.dylib; path = lib/libgstaudiomixer.dylib; sourceTree = "<group>"; };
+		A63B321B2877FEC200EF3407 /* libgstadder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstadder.dylib; path = lib/libgstadder.dylib; sourceTree = "<group>"; };
+		A63B321C2877FEC200EF3407 /* libgstcompositor.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstcompositor.dylib; path = lib/libgstcompositor.dylib; sourceTree = "<group>"; };
+		A63B321D2877FEC200EF3407 /* libgstplayback.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstplayback.dylib; path = lib/libgstplayback.dylib; sourceTree = "<group>"; };
+		A63B321E2877FEC300EF3407 /* libgstjpeg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstjpeg.dylib; path = lib/libgstjpeg.dylib; sourceTree = "<group>"; };
+		A63B321F2877FEC300EF3407 /* libgstvideotestsrc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstvideotestsrc.dylib; path = lib/libgstvideotestsrc.dylib; sourceTree = "<group>"; };
+		A63B32202877FEC300EF3407 /* libgstsubparse.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstsubparse.dylib; path = lib/libgstsubparse.dylib; sourceTree = "<group>"; };
+		A63B32212877FEC300EF3407 /* libgstopengl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstopengl.dylib; path = lib/libgstopengl.dylib; sourceTree = "<group>"; };
+		A63B32222877FEC300EF3407 /* libgstgio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstgio.dylib; path = lib/libgstgio.dylib; sourceTree = "<group>"; };
+		A63B32232877FEC300EF3407 /* libgsttheora.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgsttheora.dylib; path = lib/libgsttheora.dylib; sourceTree = "<group>"; };
+		A63B32242877FEC300EF3407 /* libgstreamer-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgstreamer-1.0.0.dylib"; path = "lib/libgstreamer-1.0.0.dylib"; sourceTree = "<group>"; };
+		A63B32252877FEC300EF3407 /* libgstaudiotestsrc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstaudiotestsrc.dylib; path = lib/libgstaudiotestsrc.dylib; sourceTree = "<group>"; };
+		A63B32262877FEC300EF3407 /* libgstvolume.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstvolume.dylib; path = lib/libgstvolume.dylib; sourceTree = "<group>"; };
+		A63B32272877FEC300EF3407 /* libspice-client-gtk-3.0.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libspice-client-gtk-3.0.5.dylib"; path = "lib/libspice-client-gtk-3.0.5.dylib"; sourceTree = "<group>"; };
+		A63B32282877FEC300EF3407 /* libgstosxaudio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstosxaudio.dylib; path = lib/libgstosxaudio.dylib; sourceTree = "<group>"; };
+		A63B32292877FEC300EF3407 /* libgstoverlaycomposition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstoverlaycomposition.dylib; path = lib/libgstoverlaycomposition.dylib; sourceTree = "<group>"; };
+		A63B322A2877FEC400EF3407 /* libgstpango.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstpango.dylib; path = lib/libgstpango.dylib; sourceTree = "<group>"; };
+		A63B322B2877FEC400EF3407 /* libgstvideorate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstvideorate.dylib; path = lib/libgstvideorate.dylib; sourceTree = "<group>"; };
+		A63B322C2877FEC400EF3407 /* libgstogg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstogg.dylib; path = lib/libgstogg.dylib; sourceTree = "<group>"; };
+		A63B322D2877FEC400EF3407 /* libgstcoreelements.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstcoreelements.dylib; path = lib/libgstcoreelements.dylib; sourceTree = "<group>"; };
+		A63B322E2877FEC400EF3407 /* libgstapp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstapp.dylib; path = lib/libgstapp.dylib; sourceTree = "<group>"; };
+		A63B322F2877FEC400EF3407 /* libgstopus.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstopus.dylib; path = lib/libgstopus.dylib; sourceTree = "<group>"; };
+		A63B32302877FEC400EF3407 /* libgstaudiorate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstaudiorate.dylib; path = lib/libgstaudiorate.dylib; sourceTree = "<group>"; };
+		A63B32312877FEC400EF3407 /* libgstrawparse.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstrawparse.dylib; path = lib/libgstrawparse.dylib; sourceTree = "<group>"; };
+		A63B32322877FEC400EF3407 /* libgstaudioresample.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstaudioresample.dylib; path = lib/libgstaudioresample.dylib; sourceTree = "<group>"; };
+		A63B32332877FEC400EF3407 /* libgsttypefindfunctions.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgsttypefindfunctions.dylib; path = lib/libgsttypefindfunctions.dylib; sourceTree = "<group>"; };
+		A63B32342877FEC400EF3407 /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "lib/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
+		A63B32352877FEC400EF3407 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "lib/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		A63B32362877FEC400EF3407 /* libgstvorbis.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstvorbis.dylib; path = lib/libgstvorbis.dylib; sourceTree = "<group>"; };
+		A63B32372877FEC500EF3407 /* libgstencoding.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstencoding.dylib; path = lib/libgstencoding.dylib; sourceTree = "<group>"; };
+		A63B32382877FEC500EF3407 /* libgstvideoconvert.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstvideoconvert.dylib; path = lib/libgstvideoconvert.dylib; sourceTree = "<group>"; };
+		A63B32392877FEC500EF3407 /* libgstpbtypes.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstpbtypes.dylib; path = lib/libgstpbtypes.dylib; sourceTree = "<group>"; };
+		A63B323A2877FEC500EF3407 /* libgstautodetect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstautodetect.dylib; path = lib/libgstautodetect.dylib; sourceTree = "<group>"; };
+		A63B323B2877FEC500EF3407 /* libgstaudioconvert.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstaudioconvert.dylib; path = lib/libgstaudioconvert.dylib; sourceTree = "<group>"; };
+		A63B323C2877FEC500EF3407 /* libgstvideofilter.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstvideofilter.dylib; path = lib/libgstvideofilter.dylib; sourceTree = "<group>"; };
+		A63B323D2877FEC500EF3407 /* libgsttcp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgsttcp.dylib; path = lib/libgsttcp.dylib; sourceTree = "<group>"; };
+		A63B323E2877FEC500EF3407 /* libspice-client-glib-2.0.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libspice-client-glib-2.0.8.dylib"; path = "lib/libspice-client-glib-2.0.8.dylib"; sourceTree = "<group>"; };
+		A63B323F2877FEC500EF3407 /* libgstvideoscale.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgstvideoscale.dylib; path = lib/libgstvideoscale.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63B31492877F90C00EF3407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63B31602877F92C00EF3407 /* CocoaSpice in Frameworks */,
+				A63B31E52877FB9000EF3407 /* pixman-1.0.framework in Frameworks */,
+				A63B31E62877FB9000EF3407 /* virglrenderer.1.framework in Frameworks */,
+				A63B31E72877FB9000EF3407 /* gstrtsp-1.0.0.framework in Frameworks */,
+				A63B31E82877FB9000EF3407 /* ffi.7.framework in Frameworks */,
+				A63B31E92877FB9000EF3407 /* gstcheck-1.0.0.framework in Frameworks */,
+				A63B31EA2877FB9000EF3407 /* intl.8.framework in Frameworks */,
+				A63B31EB2877FB9000EF3407 /* iconv.2.framework in Frameworks */,
+				A63B31EC2877FB9000EF3407 /* gthread-2.0.0.framework in Frameworks */,
+				A63B31ED2877FB9000EF3407 /* graphene-1.0.0.framework in Frameworks */,
+				A63B31EE2877FB9000EF3407 /* gstpbutils-1.0.0.framework in Frameworks */,
+				A63B31EF2877FB9000EF3407 /* gpg-error.0.framework in Frameworks */,
+				A63B31F02877FB9000EF3407 /* epoxy.0.framework in Frameworks */,
+				A63B31F12877FB9000EF3407 /* phodav-2.0.0.framework in Frameworks */,
+				A63B31F22877FB9000EF3407 /* gstaudio-1.0.0.framework in Frameworks */,
+				A63B31F32877FB9000EF3407 /* jpeg.62.framework in Frameworks */,
+				A63B31F42877FB9000EF3407 /* gstnet-1.0.0.framework in Frameworks */,
+				A63B31F52877FB9000EF3407 /* gettextsrc-0.21.framework in Frameworks */,
+				A63B32402877FEC500EF3407 /* libgstaudiomixer.dylib in Frameworks */,
+				A63B32412877FEC500EF3407 /* libgstadder.dylib in Frameworks */,
+				A63B32422877FEC500EF3407 /* libgstcompositor.dylib in Frameworks */,
+				A63B32432877FEC500EF3407 /* libgstplayback.dylib in Frameworks */,
+				A63B32442877FEC500EF3407 /* libgstjpeg.dylib in Frameworks */,
+				A63B32452877FEC500EF3407 /* libgstvideotestsrc.dylib in Frameworks */,
+				A63B32462877FEC500EF3407 /* libgstsubparse.dylib in Frameworks */,
+				A63B32472877FEC500EF3407 /* libgstopengl.dylib in Frameworks */,
+				A63B32482877FEC500EF3407 /* libgstgio.dylib in Frameworks */,
+				A63B32492877FEC500EF3407 /* libgsttheora.dylib in Frameworks */,
+				A63B324A2877FEC500EF3407 /* libgstreamer-1.0.0.dylib in Frameworks */,
+				A63B324B2877FEC500EF3407 /* libgstaudiotestsrc.dylib in Frameworks */,
+				A63B324C2877FEC500EF3407 /* libgstvolume.dylib in Frameworks */,
+				A63B324D2877FEC500EF3407 /* libspice-client-gtk-3.0.5.dylib in Frameworks */,
+				A63B324E2877FEC500EF3407 /* libgstosxaudio.dylib in Frameworks */,
+				A63B324F2877FEC500EF3407 /* libgstoverlaycomposition.dylib in Frameworks */,
+				A63B32502877FEC500EF3407 /* libgstpango.dylib in Frameworks */,
+				A63B32512877FEC500EF3407 /* libgstvideorate.dylib in Frameworks */,
+				A63B32522877FEC500EF3407 /* libgstogg.dylib in Frameworks */,
+				A63B32532877FEC500EF3407 /* libgstcoreelements.dylib in Frameworks */,
+				A63B32542877FEC500EF3407 /* libgstapp.dylib in Frameworks */,
+				A63B32552877FEC500EF3407 /* libgstopus.dylib in Frameworks */,
+				A63B32562877FEC500EF3407 /* libgstaudiorate.dylib in Frameworks */,
+				A63B32572877FEC500EF3407 /* libgstrawparse.dylib in Frameworks */,
+				A63B32582877FEC500EF3407 /* libgstaudioresample.dylib in Frameworks */,
+				A63B32592877FEC500EF3407 /* libgsttypefindfunctions.dylib in Frameworks */,
+				A63B325A2877FEC500EF3407 /* libglib-2.0.0.dylib in Frameworks */,
+				A63B325B2877FEC500EF3407 /* libusb-1.0.0.dylib in Frameworks */,
+				A63B325C2877FEC500EF3407 /* libgstvorbis.dylib in Frameworks */,
+				A63B325D2877FEC500EF3407 /* libgstencoding.dylib in Frameworks */,
+				A63B325E2877FEC500EF3407 /* libgstvideoconvert.dylib in Frameworks */,
+				A63B325F2877FEC500EF3407 /* libgstpbtypes.dylib in Frameworks */,
+				A63B32602877FEC500EF3407 /* libgstautodetect.dylib in Frameworks */,
+				A63B32612877FEC500EF3407 /* libgstaudioconvert.dylib in Frameworks */,
+				A63B32622877FEC500EF3407 /* libgstvideofilter.dylib in Frameworks */,
+				A63B32632877FEC500EF3407 /* libgsttcp.dylib in Frameworks */,
+				A63B32642877FEC500EF3407 /* libspice-client-glib-2.0.8.dylib in Frameworks */,
+				A63B32652877FEC500EF3407 /* libgstvideoscale.dylib in Frameworks */,
+				A63B31F62877FB9000EF3407 /* textstyle.0.framework in Frameworks */,
+				A63B31F72877FB9000EF3407 /* gstreamer-1.0.0.framework in Frameworks */,
+				A63B31F82877FB9000EF3407 /* GStreamer.framework in Frameworks */,
+				A63B31F92877FB9000EF3407 /* gstsdp-1.0.0.framework in Frameworks */,
+				A63B31FA2877FB9000EF3407 /* ssl.1.1.framework in Frameworks */,
+				A63B31FB2877FB9000EF3407 /* usb-1.0.0.framework in Frameworks */,
+				A63B31FC2877FB9000EF3407 /* crypto.1.1.framework in Frameworks */,
+				A63B31FD2877FB9000EF3407 /* opus.0.framework in Frameworks */,
+				A63B31FE2877FB9000EF3407 /* gsttag-1.0.0.framework in Frameworks */,
+				A63B31FF2877FB9000EF3407 /* turbojpeg.0.framework in Frameworks */,
+				A63B32002877FB9000EF3407 /* gstgl-1.0.0.framework in Frameworks */,
+				A63B32012877FB9000EF3407 /* gstfft-1.0.0.framework in Frameworks */,
+				A63B32022877FB9000EF3407 /* gettextpo.0.framework in Frameworks */,
+				A63B32032877FB9000EF3407 /* gio-2.0.0.framework in Frameworks */,
+				A63B32042877FB9000EF3407 /* gstrtp-1.0.0.framework in Frameworks */,
+				A63B32052877FB9000EF3407 /* EGL.framework in Frameworks */,
+				A63B32062877FB9000EF3407 /* gstapp-1.0.0.framework in Frameworks */,
+				A63B32072877FB9000EF3407 /* spice-client-glib-2.0.8.framework in Frameworks */,
+				A63B32082877FB9000EF3407 /* gstbase-1.0.0.framework in Frameworks */,
+				A63B32092877FB9000EF3407 /* usbredirparser.1.framework in Frameworks */,
+				A63B320A2877FB9000EF3407 /* usbredirhost.1.framework in Frameworks */,
+				A63B320B2877FB9000EF3407 /* gcrypt.20.framework in Frameworks */,
+				A63B320C2877FB9000EF3407 /* gstvideo-1.0.0.framework in Frameworks */,
+				A63B320D2877FB9000EF3407 /* json-glib-1.0.0.framework in Frameworks */,
+				A63B320E2877FB9000EF3407 /* gobject-2.0.0.framework in Frameworks */,
+				A63B320F2877FB9000EF3407 /* gstcontroller-1.0.0.framework in Frameworks */,
+				A63B32102877FB9000EF3407 /* gettextlib-0.21.framework in Frameworks */,
+				A63B32112877FB9000EF3407 /* charset.1.framework in Frameworks */,
+				A63B32122877FB9000EF3407 /* gmodule-2.0.0.framework in Frameworks */,
+				A63B32132877FB9000EF3407 /* gstallocators-1.0.0.framework in Frameworks */,
+				A63B32142877FB9000EF3407 /* png16.16.framework in Frameworks */,
+				A63B32152877FB9000EF3407 /* gstriff-1.0.0.framework in Frameworks */,
+				A63B32162877FB9000EF3407 /* spice-server.1.framework in Frameworks */,
+				A63B32172877FB9000EF3407 /* glib-2.0.0.framework in Frameworks */,
+				A63B32182877FB9000EF3407 /* GLESv2.framework in Frameworks */,
+				A63B32192877FB9000EF3407 /* asprintf.0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63B31432877F90C00EF3407 = {
+			isa = PBXGroup;
+			children = (
+				A63B314E2877F90C00EF3407 /* CocoaSpicySample */,
+				A63B314D2877F90C00EF3407 /* Products */,
+				A63B31612877F98500EF3407 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A63B314D2877F90C00EF3407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63B314C2877F90C00EF3407 /* CocoaSpicySample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63B314E2877F90C00EF3407 /* CocoaSpicySample */ = {
+			isa = PBXGroup;
+			children = (
+				A63B314F2877F90C00EF3407 /* AppDelegate.swift */,
+				A63B31512877F90C00EF3407 /* ViewController.swift */,
+				A63B31532877F91000EF3407 /* Assets.xcassets */,
+				A63B31552877F91000EF3407 /* Main.storyboard */,
+				A63B31582877F91000EF3407 /* CocoaSpicySample.entitlements */,
+			);
+			path = CocoaSpicySample;
+			sourceTree = "<group>";
+		};
+		A63B31612877F98500EF3407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63B32342877FEC400EF3407 /* libglib-2.0.0.dylib */,
+				A63B321B2877FEC200EF3407 /* libgstadder.dylib */,
+				A63B322E2877FEC400EF3407 /* libgstapp.dylib */,
+				A63B323B2877FEC500EF3407 /* libgstaudioconvert.dylib */,
+				A63B321A2877FEC200EF3407 /* libgstaudiomixer.dylib */,
+				A63B32302877FEC400EF3407 /* libgstaudiorate.dylib */,
+				A63B32322877FEC400EF3407 /* libgstaudioresample.dylib */,
+				A63B32252877FEC300EF3407 /* libgstaudiotestsrc.dylib */,
+				A63B323A2877FEC500EF3407 /* libgstautodetect.dylib */,
+				A63B321C2877FEC200EF3407 /* libgstcompositor.dylib */,
+				A63B322D2877FEC400EF3407 /* libgstcoreelements.dylib */,
+				A63B32372877FEC500EF3407 /* libgstencoding.dylib */,
+				A63B32222877FEC300EF3407 /* libgstgio.dylib */,
+				A63B321E2877FEC300EF3407 /* libgstjpeg.dylib */,
+				A63B322C2877FEC400EF3407 /* libgstogg.dylib */,
+				A63B32212877FEC300EF3407 /* libgstopengl.dylib */,
+				A63B322F2877FEC400EF3407 /* libgstopus.dylib */,
+				A63B32282877FEC300EF3407 /* libgstosxaudio.dylib */,
+				A63B32292877FEC300EF3407 /* libgstoverlaycomposition.dylib */,
+				A63B322A2877FEC400EF3407 /* libgstpango.dylib */,
+				A63B32392877FEC500EF3407 /* libgstpbtypes.dylib */,
+				A63B321D2877FEC200EF3407 /* libgstplayback.dylib */,
+				A63B32312877FEC400EF3407 /* libgstrawparse.dylib */,
+				A63B32242877FEC300EF3407 /* libgstreamer-1.0.0.dylib */,
+				A63B32202877FEC300EF3407 /* libgstsubparse.dylib */,
+				A63B323D2877FEC500EF3407 /* libgsttcp.dylib */,
+				A63B32232877FEC300EF3407 /* libgsttheora.dylib */,
+				A63B32332877FEC400EF3407 /* libgsttypefindfunctions.dylib */,
+				A63B32382877FEC500EF3407 /* libgstvideoconvert.dylib */,
+				A63B323C2877FEC500EF3407 /* libgstvideofilter.dylib */,
+				A63B322B2877FEC400EF3407 /* libgstvideorate.dylib */,
+				A63B323F2877FEC500EF3407 /* libgstvideoscale.dylib */,
+				A63B321F2877FEC300EF3407 /* libgstvideotestsrc.dylib */,
+				A63B32262877FEC300EF3407 /* libgstvolume.dylib */,
+				A63B32362877FEC400EF3407 /* libgstvorbis.dylib */,
+				A63B323E2877FEC500EF3407 /* libspice-client-glib-2.0.8.dylib */,
+				A63B32272877FEC300EF3407 /* libspice-client-gtk-3.0.5.dylib */,
+				A63B32352877FEC400EF3407 /* libusb-1.0.0.dylib */,
+				A63B31E42877FB9000EF3407 /* asprintf.0.framework */,
+				A63B31DC2877FB8F00EF3407 /* charset.1.framework */,
+				A63B31C72877FB8E00EF3407 /* crypto.1.1.framework */,
+				A63B31D02877FB8F00EF3407 /* EGL.framework */,
+				A63B31BB2877FB8D00EF3407 /* epoxy.0.framework */,
+				A63B31B32877FB8D00EF3407 /* ffi.7.framework */,
+				A63B31D62877FB8F00EF3407 /* gcrypt.20.framework */,
+				A63B31DB2877FB8F00EF3407 /* gettextlib-0.21.framework */,
+				A63B31CD2877FB8F00EF3407 /* gettextpo.0.framework */,
+				A63B31C02877FB8D00EF3407 /* gettextsrc-0.21.framework */,
+				A63B31CE2877FB8F00EF3407 /* gio-2.0.0.framework */,
+				A63B31E32877FB9000EF3407 /* GLESv2.framework */,
+				A63B31E22877FB9000EF3407 /* glib-2.0.0.framework */,
+				A63B31DD2877FB8F00EF3407 /* gmodule-2.0.0.framework */,
+				A63B31D92877FB8F00EF3407 /* gobject-2.0.0.framework */,
+				A63B31BA2877FB8D00EF3407 /* gpg-error.0.framework */,
+				A63B31B82877FB8D00EF3407 /* graphene-1.0.0.framework */,
+				A63B31DE2877FB9000EF3407 /* gstallocators-1.0.0.framework */,
+				A63B31D12877FB8F00EF3407 /* gstapp-1.0.0.framework */,
+				A63B31BD2877FB8D00EF3407 /* gstaudio-1.0.0.framework */,
+				A63B31D32877FB8F00EF3407 /* gstbase-1.0.0.framework */,
+				A63B31B42877FB8D00EF3407 /* gstcheck-1.0.0.framework */,
+				A63B31DA2877FB8F00EF3407 /* gstcontroller-1.0.0.framework */,
+				A63B31CC2877FB8E00EF3407 /* gstfft-1.0.0.framework */,
+				A63B31CB2877FB8E00EF3407 /* gstgl-1.0.0.framework */,
+				A63B31BF2877FB8D00EF3407 /* gstnet-1.0.0.framework */,
+				A63B31B92877FB8D00EF3407 /* gstpbutils-1.0.0.framework */,
+				A63B31C22877FB8E00EF3407 /* gstreamer-1.0.0.framework */,
+				A63B31C32877FB8E00EF3407 /* GStreamer.framework */,
+				A63B31E02877FB9000EF3407 /* gstriff-1.0.0.framework */,
+				A63B31CF2877FB8F00EF3407 /* gstrtp-1.0.0.framework */,
+				A63B31B22877FB8D00EF3407 /* gstrtsp-1.0.0.framework */,
+				A63B31C42877FB8E00EF3407 /* gstsdp-1.0.0.framework */,
+				A63B31C92877FB8E00EF3407 /* gsttag-1.0.0.framework */,
+				A63B31D72877FB8F00EF3407 /* gstvideo-1.0.0.framework */,
+				A63B31B72877FB8D00EF3407 /* gthread-2.0.0.framework */,
+				A63B31B62877FB8D00EF3407 /* iconv.2.framework */,
+				A63B31B52877FB8D00EF3407 /* intl.8.framework */,
+				A63B31BE2877FB8D00EF3407 /* jpeg.62.framework */,
+				A63B31D82877FB8F00EF3407 /* json-glib-1.0.0.framework */,
+				A63B31C82877FB8E00EF3407 /* opus.0.framework */,
+				A63B31BC2877FB8D00EF3407 /* phodav-2.0.0.framework */,
+				A63B31B02877FB8D00EF3407 /* pixman-1.0.framework */,
+				A63B31DF2877FB9000EF3407 /* png16.16.framework */,
+				A63B31D22877FB8F00EF3407 /* spice-client-glib-2.0.8.framework */,
+				A63B31E12877FB9000EF3407 /* spice-server.1.framework */,
+				A63B31C52877FB8E00EF3407 /* ssl.1.1.framework */,
+				A63B31C12877FB8D00EF3407 /* textstyle.0.framework */,
+				A63B31CA2877FB8E00EF3407 /* turbojpeg.0.framework */,
+				A63B31C62877FB8E00EF3407 /* usb-1.0.0.framework */,
+				A63B31D52877FB8F00EF3407 /* usbredirhost.1.framework */,
+				A63B31D42877FB8F00EF3407 /* usbredirparser.1.framework */,
+				A63B31B12877FB8D00EF3407 /* virglrenderer.1.framework */,
+				A63B31622877F98500EF3407 /* GStreamer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63B314B2877F90C00EF3407 /* CocoaSpicySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63B315B2877F91000EF3407 /* Build configuration list for PBXNativeTarget "CocoaSpicySample" */;
+			buildPhases = (
+				A63B31482877F90C00EF3407 /* Sources */,
+				A63B31492877F90C00EF3407 /* Frameworks */,
+				A63B314A2877F90C00EF3407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaSpicySample;
+			packageProductDependencies = (
+				A63B315F2877F92C00EF3407 /* CocoaSpice */,
+			);
+			productName = CocoaSpicySample;
+			productReference = A63B314C2877F90C00EF3407 /* CocoaSpicySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63B31442877F90C00EF3407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A63B314B2877F90C00EF3407 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A63B31472877F90C00EF3407 /* Build configuration list for PBXProject "CocoaSpicySample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A63B31432877F90C00EF3407;
+			packageReferences = (
+				A63B315E2877F92C00EF3407 /* XCRemoteSwiftPackageReference "CocoaSpice" */,
+			);
+			productRefGroup = A63B314D2877F90C00EF3407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63B314B2877F90C00EF3407 /* CocoaSpicySample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63B314A2877F90C00EF3407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63B31542877F91000EF3407 /* Assets.xcassets in Resources */,
+				A63B31572877F91000EF3407 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63B31482877F90C00EF3407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63B31522877F90C00EF3407 /* ViewController.swift in Sources */,
+				A63B31502877F90C00EF3407 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A63B31552877F91000EF3407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63B31562877F91000EF3407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A63B31592877F91000EF3407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A63B315A2877F91000EF3407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A63B315C2877F91000EF3407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CocoaSpicySample/CocoaSpicySample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WM5342TRW6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-L/Library/Frameworks/GStreamer.framework/Versions/Current/lib";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skp.spice.CocoaSpicySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A63B315D2877F91000EF3407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CocoaSpicySample/CocoaSpicySample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WM5342TRW6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-L/Library/Frameworks/GStreamer.framework/Versions/Current/lib";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skp.spice.CocoaSpicySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63B31472877F90C00EF3407 /* Build configuration list for PBXProject "CocoaSpicySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63B31592877F91000EF3407 /* Debug */,
+				A63B315A2877F91000EF3407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63B315B2877F91000EF3407 /* Build configuration list for PBXNativeTarget "CocoaSpicySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63B315C2877F91000EF3407 /* Debug */,
+				A63B315D2877F91000EF3407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A63B315E2877F92C00EF3407 /* XCRemoteSwiftPackageReference "CocoaSpice" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/utmapp/CocoaSpice.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A63B315F2877F92C00EF3407 /* CocoaSpice */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A63B315E2877F92C00EF3407 /* XCRemoteSwiftPackageReference "CocoaSpice" */;
+			productName = CocoaSpice;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A63B31442877F90C00EF3407 /* Project object */;
+}

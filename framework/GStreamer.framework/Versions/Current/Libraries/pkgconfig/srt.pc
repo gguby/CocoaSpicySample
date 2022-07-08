@@ -1,0 +1,13 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: srt
+Description: SRT library set
+Version: 1.4.3
+Libs: -L${libdir} -lsrt   
+Libs.private:  -lc++
+Cflags: -I${includedir} -I${includedir}/srt
+Requires.private: openssl libcrypto
+

@@ -1,0 +1,14 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Users/matt/Projects/cerbero-1.20/build/dist/darwin_universal/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.9
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:  -lpthread -L/Users/matt/Projects/cerbero-1.20/build/dist/darwin_universal/lib -lz   -liconv -lm  
+Cflags: -I${includedir}/libxml2 
+

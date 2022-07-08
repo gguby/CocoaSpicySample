@@ -1,0 +1,12 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo
+Description: Multi-platform 2D graphics library
+Version: 1.17.4
+Requires.private: zlib, libpng, fontconfig >=  2.2.95, freetype2 >=  9.7.3, pixman-1 >=  0.36.0
+Libs: -L${libdir} -lcairo
+Libs.private: -lm -ldl -framework CoreFoundation -framework ApplicationServices
+Cflags: -I${includedir}/cairo
+

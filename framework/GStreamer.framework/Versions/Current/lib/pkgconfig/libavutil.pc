@@ -1,0 +1,15 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Users/matt/Projects/cerbero-1.20/build/dist/darwin_universal/lib
+includedir=/Users/matt/Projects/cerbero-1.20/build/dist/darwin_universal/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.70.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm -framework CoreFoundation -framework CoreVideo -framework CoreMedia
+Cflags: -I${includedir}
+

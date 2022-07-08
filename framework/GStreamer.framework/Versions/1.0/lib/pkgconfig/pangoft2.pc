@@ -1,0 +1,13 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=/Library/Frameworks/GStreamer.framework/Versions/1.0
+libdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/lib
+includedir=/Library/Frameworks/GStreamer.framework/Versions/1.0/include
+
+Name: Pango FT2 and Pango Fc
+Description: Freetype 2.0 and fontconfig font support for Pango
+Version: 1.42.3
+Requires: pango freetype2 fontconfig
+Requires.private: harfbuzz
+Libs: -L${libdir} -lpangoft2-1.0   
+Cflags: -I${includedir}/pango-1.0
+

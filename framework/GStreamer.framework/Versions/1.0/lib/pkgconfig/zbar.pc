@@ -1,0 +1,12 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/lib
+includedir=${prefix}/include
+
+Name: zbar
+Description: bar code scanning and decoding
+URL: http://zbar.sourceforge.net
+Version: 0.23
+Libs: -L${libdir} -lzbar
+Cflags: -I${includedir}
+

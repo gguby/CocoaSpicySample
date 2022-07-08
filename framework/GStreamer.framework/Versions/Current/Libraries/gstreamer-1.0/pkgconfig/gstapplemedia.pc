@@ -1,0 +1,12 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gstapplemedia
+Description: gst-plugins-bad: gstapplemedia
+Version: 1.20.2
+Requires.private: gstreamer-video-1.0 >=  1.20.0, gstreamer-audio-1.0 >=  1.20.0, gstreamer-pbutils-1.0 >=  1.20.0, gstreamer-1.0 >=  1.20.0, gstreamer-base-1.0 >=  1.20.0, gstreamer-gl-1.0 >=  1.20.0, gstreamer-gl-prototypes-1.0 >=  1.20.0
+Libs: -L${prefix}/lib/gstreamer-1.0 -lgstapplemedia
+Libs.private: -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework CoreFoundation -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework CoreMedia -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework CoreVideo -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework AudioToolbox -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework AVFoundation -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework VideoToolbox -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework Cocoa -framework OpenGL -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks -framework IOSurface
+Cflags: -I${includedir}
+

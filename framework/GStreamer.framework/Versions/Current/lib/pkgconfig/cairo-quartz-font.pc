@@ -1,0 +1,11 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-quartz-font
+Description: Quartz font backend for cairo graphics library
+Version: 1.17.4
+Requires: cairo
+Libs: -framework CoreFoundation -framework ApplicationServices
+Cflags: -I${includedir}
+

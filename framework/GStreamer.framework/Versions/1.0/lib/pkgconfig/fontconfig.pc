@@ -1,0 +1,17 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+sysconfdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/etc
+localstatedir=/Library/Frameworks/GStreamer.framework/Versions/1.0/var
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.13.93
+Requires: freetype2 >=  21.0.15
+Requires.private: expat
+Libs: -L${libdir} -lfontconfig
+Cflags: -I${includedir}
+

@@ -1,0 +1,15 @@
+# theora installed pkg-config file
+
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Users/matt/Projects/cerbero-1.20/build/dist/darwin_universal/lib
+includedir=${prefix}/include
+
+Name: theora
+Description: Theora video codec
+Version: 1.1.1
+Requires: ogg >= 1.1
+Conflicts:
+Libs: -L${libdir} -ltheora
+Cflags: -I${includedir}
+

@@ -1,0 +1,11 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: sqlite3
+Description: An embedded SQL database engine
+Version: 3320300
+Libs: -L${libdir} -lsqlite3
+Libs.private: -ldl -lm
+Cflags: -I${includedir}
+

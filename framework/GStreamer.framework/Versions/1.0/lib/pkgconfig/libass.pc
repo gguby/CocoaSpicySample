@@ -1,0 +1,14 @@
+prefix=/non_existent_on_purpose/please_use_framework_pkg-config/or_pass_--define-prefix_to_your_pkg-config
+exec_prefix=${prefix}
+libdir=/Library/Frameworks/GStreamer.framework/Versions/1.0/lib
+includedir=${prefix}/include
+
+Name: libass
+Description: LibASS is an SSA/ASS subtitles rendering library
+Version: 0.15.2
+Requires:
+Requires.private: fontconfig >= 2.10.92, harfbuzz >= 1.2.3, fribidi >= 0.19.0, freetype2 >= 9.10.3
+Libs: -L${libdir} -lass
+Libs.private: -liconv 
+Cflags: -I${includedir}
+
